@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <title>Sports Ecommerce Website</title>
+    <link rel="icon" href= "https://e7.pngegg.com/pngimages/309/616/png-clipart-dumbbell-barbell-fitness-centre-weight-training-dumbbell-physical-fitness-hand-thumbnail.png" type="image/x-icon"/>
+    <script src="https://kit.fontawesome.com/d42317081f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+</head>
+
+<body> 
+    <section id="header">
+        <a><h3>Get Fit!</h3></a><!--<img src="#" class="logo" alt="">-->
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Shop</a></li>
+                <li><a class = "active" href="admin.html">Admin</a></li>
+                <!--Cart Icon-->
+                <li id="lg-bag"><a><i id="cart-icon" class="fa-solid fa-cart-shopping"></i></a></li>
+                <a id="close"><i class="fa-solid fa-xmark"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a><i class="fa-solid fa-cart-shopping"></i></a>
+            <i id = "bar" class="fa-solid fa-bars"></i>
+        </div>
+    </section>
+
+    <section id="form">
+        <div class="container">
+            <div class="title">New Products!</div>
+            <form action="#">
+                <div class="user-details">
+                    <div class="input-box">
+                        <span class="details">Product Name</span>
+                        <input type="text" placeholder="Enter product name" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Image URL(Web)</span>
+                        <input type="text" placeholder="Enter image URL" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Product Description</span>
+                        <input type="text" placeholder="Enter product description" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Price (£)</span>
+                        <input type="number" placeholder="Enter product price" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Rating(1-5)</span>
+                        <input type="number" placeholder="Enter product rating" required step="1" min="1" max="5">
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Stock Count</span>
+                        <input type="number" placeholder="Enter stock count for product" required step="1">
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Size options (Select all that apply)</span>
+                        <div class="sizeForm">
+                            <label>
+                                <input type="checkbox" class="size-checkbox" name="size" value="XS" /> XS
+                            </label>
+                            <label>
+                                <input type="checkbox" class="size-checkbox" name="size" value="S" /> S
+                            </label>
+                            <label>
+                                <input type="checkbox" class="size-checkbox" name="size" value="M" /> M
+                            </label>
+                            <label>
+                                <input type="checkbox" class="size-checkbox" name="size" value="L" /> L
+                            </label>
+                            <label>
+                                <input type="checkbox" class="size-checkbox" name="size" value="XL" /> XL
+                            </label>
+                        </div>
+                    </div>
+                    <div class="seller-details">
+                        <input type="radio" name="seller" id="nike" value="0a0eba65-d485-4a05-b3d0-d1bc9767604b">
+                        <input type="radio" name="seller" id="adidas" value="f21a22c4-b5f1-4149-b04f-b385c17ffda0">
+                        <input type="radio" name="seller" id="puma" value="5dabc42c-9826-4f2a-9396-17cdcf2afa25">
+                        <input type="radio" name="seller" id="gymshark" value="36235454-4ba8-4b2e-8b00-5f117465f706">
+                        <span class="seller-title">Seller</span>
+                        <div class="category">
+                            <label for="nike">
+                                <span class="dot one"></span>
+                                <span class="seller">Nike</span>
+                            </label>
+                            <label for="adidas">
+                                <span class="dot two"></span>
+                                <span class="seller">Adidas</span>
+                            </label>
+                            <label for="puma">
+                                <span class="dot three"></span>
+                                <span class="seller">Puma</span>
+                            </label>
+                            <label for="gymshark">
+                                <span class="dot four"></span>
+                                <span class="seller">Gymshark</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="button">
+                    <input type="submit" value="Add Product">
+                </div>
+            </form>
+    </section>
+
+    </section>
+    <script src = "admin.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+</body>
+
+
+</html>

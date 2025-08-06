@@ -1,0 +1,22 @@
+[
+  {
+    "id": "0a0eba65-d485-4a05-b3d0-d1bc9767604b",
+    "name": "Nike",
+    "logo": "https://www.freeiconspng.com/uploads/nike-logo-png-shoes-brand-17.png"
+  },
+  {
+    "id": "f21a22c4-b5f1-4149-b04f-b385c17ffda0",
+    "name": "Addidas",
+    "logo": "https://loodibee.com/wp-content/uploads/Adidas-Logo.png"
+  },
+  {
+    "id": "5dabc42c-9826-4f2a-9396-17cdcf2afa25",
+    "name": "Puma",
+    "logo": "https://freepnglogo.com/images/all_img/1730395335_puma-logo-png.png"
+  },
+  {
+    "id": "36235454-4ba8-4b2e-8b00-5f117465f706",
+    "name": "Gymshark",
+    "logo": "https://images.seeklogo.com/logo-png/33/2/gymshark-logo-png_seeklogo-335188.png"
+  }
+]
